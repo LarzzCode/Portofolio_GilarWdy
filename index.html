@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">LarPortofolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#experience">Pengalaman</a></li>
+          <li><a href="#projects">Projek</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">LarPortofolio</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Tentang</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Pengalaman</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projek</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Kontak</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="Gilar-wdy.png" alt="LarrImage" />
+      </div>
+      <div class="section__text">
+        <h1 class="title">Gilar Wahiditya Eka Putra</h1>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('GilarWahiditya_CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/gilarwdy'" target="_blank"
+          />
+          <img
+            src="github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/LarzzCode'" target="_blank"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="title">Tentang Saya</h1>
+      <div class="section-container">
+        
+        <div class="about-details-container">
+          <div class="about-containers">
+            
+            <div class="details-container">
+              <img
+                src="education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Pendidikan</h3>
+              <p>SMKN 1 KERTAJATI</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+Lulusan dari Sekolah Menengah Kejuruan jurusan rekayasa perangkat lunakyang memiliki antusiasme yang tinggi dalam teknologi informasi danpengelolaan data. Memiliki pengalaman Peraktik Kerja Lapangan di bidang ITpaham akan konsep - konsep pemrograman dan pengelolaan data. Sayaadalah individu yang memiliki semangat untuk belajar dan berkembang dalambidang IT dan pengelolaan data
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <h1 class="title">Pengalaman</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">SMK NEGERI 1 KERTAJATI</h2>
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3>Web Developer</h3>
+                  <h4>( April 2023 - Mei 2024 )</h4>
+                  <p>
+                    <ul>
+                      <li>
+                        Membuat dan mengembangkan aplikasi web 
+                      </li>
+                      <li>Membuat UI/UX yang menarik, estetis dan mudah di pahami oleh pengguna</li>
+                      <li>
+                    Membuat laporan hasil aplikasi di ms word
+                      </li>
+                      <li>Mengelola database </li>
+                      <li>Bekerja sama dengan tim / kelompok dalam pengerjaan tugas pembuatanaplikasi</li>
+                    </ul>
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">F notebook</h2>
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3>Teknisi Komputer</h3>
+                  <h4>( Januari 2023 - Maret 2023 )</h4>
+                  <p>
+                    <ul>
+                      <li>
+                        Melakukan pengecekan dan Memastikan komputer dan laptop yangdigunakan dapat berfungsi dengan baik
+                      </li>
+                      <li>
+                        Melakukan pengecekan terhadap software maupun hardware yang diperlukan agar berjalan dengan baik
+                      </li>
+                      <li>Membuat data ketersediaan laptop di ms Excel</li>
+                    </ul>
+                  </p>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+
+      <h1 class="title">Projek</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="calculator.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Calculator App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/LarzzCode/calculator-lar'" target="_blank"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://calculator-lar.vercel.app/'" target="_blank"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="movie.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Anime Movie App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/LarzzCode/larMovie'" target="_blank"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://lar-movie.vercel.app/'"target="_blank"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="todo.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">TodoList App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/LarzzCode/TodoApp'" target="_blank"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://todo-app-lar.vercel.app/'" target="_blank"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <h1 class="title">Kontak Saya</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="email.png"
+            alt="Email icon"
+            class="icon contact-icon"
+          />
+          <p><a href="mailto:wahidityagilar6@gmail.com">wahidityagilar6@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/gilarwdy"target="_blank">Gilar Wahiditya</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="github.png"
+            alt="My Github profile"
+            class="icon contact-icon"
+          />
+          <p><a href="https://github.com/LarzzCode" target="_blank">Gilar Wahiditya</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      
+      <p>Copyright &#169; 2024 Gilar Wahiditya Eka Putra</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
