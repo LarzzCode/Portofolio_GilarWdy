@@ -10,18 +10,19 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">LarPortofolio</div>
+      <div class="logo"><a href="#profile">LarPortofolio</a></div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">Tentang</a></li>
           <li><a href="#experience">Pengalaman</a></li>
           <li><a href="#projects">Projek</a></li>
+          <li><a href="#Keahlian">Keahlian</a></li>
           <li><a href="#contact">Kontak</a></li>
         </ul>
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">LarPortofolio</div>
+      <div class="logo"><a href="#profile">LarPortofolio</a></div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -30,15 +31,17 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">Tentang</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Pengalaman</a></li>
+      <li><a href="#experience" onclick="toggleMenu()">Pengalaman</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projek</a></li>
+          <li><a href="#Keahlian" onclick="toggleMenu()">Keahlian</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Kontak</a></li>
         </div>
       </div>
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="Gilar-wdy.png" alt="LarrImage" />
+      
+            <img src="Image_lar.png" alt="LarrImage" />
       </div>
       <div class="section__text">
         <h1 class="title">Gilar Wahiditya Eka Putra</h1>
@@ -52,20 +55,6 @@
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/gilarwdy'" target="_blank"
-          />
-          <img
-            src="github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/LarzzCode'" target="_blank"
-          />
         </div>
       </div>
     </section>
@@ -93,12 +82,7 @@ Lulusan dari Sekolah Menengah Kejuruan jurusan rekayasa perangkat lunakyang memi
           </div>
         </div>
       </div>
-      <img
-        src="arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
+      
     </section>
     <section id="experience">
       <h1 class="title">Pengalaman</h1>
@@ -121,7 +105,8 @@ Lulusan dari Sekolah Menengah Kejuruan jurusan rekayasa perangkat lunakyang memi
                     Membuat laporan hasil aplikasi di ms word
                       </li>
                       <li>Mengelola database </li>
-                      <li>Bekerja sama dengan tim / kelompok dalam pengerjaan tugas pembuatanaplikasi</li>
+                      <li>
+                        Bekerja sama dengan tim / kelompok dalam pengerjaan tugas pembuatanaplikasi</li>
                     </ul>
                   </p>
                 </div>
@@ -153,12 +138,7 @@ Lulusan dari Sekolah Menengah Kejuruan jurusan rekayasa perangkat lunakyang memi
           </div>
         </div>
       </div>
-      <img
-        src="arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
+      
     </section>
     <section id="projects">
 
@@ -175,18 +155,18 @@ Lulusan dari Sekolah Menengah Kejuruan jurusan rekayasa perangkat lunakyang memi
             </div>
             <h2 class="experience-sub-title project-title">Calculator App</h2>
             <div class="btn-container">
+              <a href="https://github.com/LarzzCode/calculator-lar" target="_blank">
               <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/LarzzCode/calculator-lar'" target="_blank"
-              >
+                class="btn btn-color-2 project-btn">
                 Github
               </button>
+              </a>
+              <a href="https://calculator-lar.vercel.app/" target="_blank">
               <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://calculator-lar.vercel.app/'" target="_blank"
-              >
+                class="btn btn-color-2 project-btn">
                 Live Demo
               </button>
+              </a>
             </div>
           </div>
           <div class="details-container color-container">
@@ -199,18 +179,18 @@ Lulusan dari Sekolah Menengah Kejuruan jurusan rekayasa perangkat lunakyang memi
             </div>
             <h2 class="experience-sub-title project-title">Anime Movie App</h2>
             <div class="btn-container">
+              <a href="https://github.com/LarzzCode/larMovie" target="_blank">
               <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/LarzzCode/larMovie'" target="_blank"
-              >
+                class="btn btn-color-2 project-btn">
                 Github
               </button>
+              </a>
+              <a href="https://lar-movie.vercel.app/" target="_blank">
               <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://lar-movie.vercel.app/'"target="_blank"
-              >
+                class="btn btn-color-2 project-btn">
                 Live Demo
               </button>
+              </a>
             </div>
           </div>
           <div class="details-container color-container">
@@ -223,29 +203,42 @@ Lulusan dari Sekolah Menengah Kejuruan jurusan rekayasa perangkat lunakyang memi
             </div>
             <h2 class="experience-sub-title project-title">TodoList App</h2>
             <div class="btn-container">
+              <a href="https://github.com/LarzzCode/TodoApp" target="_blank">
               <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/LarzzCode/TodoApp'" target="_blank"
-              >
+                class="btn btn-color-2 project-btn">
                 Github
               </button>
+              </a>
+              <a href="https://todo-app-lar.vercel.app/" target="_blank">
               <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://todo-app-lar.vercel.app/'" target="_blank"
-              >
+                class="btn btn-color-2 project-btn">
                 Live Demo
               </button>
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <img
-        src="arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
+      
     </section>
+    <section id="Keahlian">
+      <h1 class="title">Keahlian saya</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <p class="keahlian-sub-title">Ms Office ( word, excel, powerpoint )</p>
+          </div>
+          <div class="details-container">
+            <p class="keahlian-sub-title">Pengembangan web</p>
+          </div>
+          <div class="details-container">
+            <p class="keahlian-sub-title">Manajemen waktu</p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    
     <section id="contact">
       <h1 class="title">Kontak Saya</h1>
       <div class="contact-info-upper-container">
@@ -273,11 +266,18 @@ Lulusan dari Sekolah Menengah Kejuruan jurusan rekayasa perangkat lunakyang memi
           />
           <p><a href="https://github.com/LarzzCode" target="_blank">Gilar Wahiditya</a></p>
         </div>
+        <div class="contact-info-container">
+          <img
+            src="whatsapp.png"
+            alt="My whatsapp profile"
+            class="icon contact-icon"
+          />
+          <p><a href="https://wa.me/6283842581283" target="_blank">+62 851 7438 8765</a></p>
+        </div>
       </div>
     </section>
     <footer>
-      
-      <p>Copyright &#169; 2024 Gilar Wahiditya Eka Putra</p>
+      <p>Copyright &#169;2024 Gilar Wahiditya Eka Putra</p>
     </footer>
     <script src="script.js"></script>
   </body>

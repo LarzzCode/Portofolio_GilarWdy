@@ -10,13 +10,27 @@
   #projects {
     height: fit-content;
   }
+  nav{
+    height: 5vh;
+  }
+  .section__pic-container img{
+   width: 350px;
+   height: 350px;
+   background: #99BC85;
+   border-radius: 49% 51% 74% 24% / 39% 40% 57% 52%;
+}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 970px) {
   #desktop-nav {
     display: none;
   }
-
+  .section__pic-container img{
+   width: 350px;
+   height: 350px;
+   background: #99BC85;
+   border-radius: 49% 51% 74% 24% / 39% 40% 57% 52%;
+}
   #hamburger-nav {
     display: flex;
   }
@@ -35,14 +49,11 @@
   .section-container {
     height: fit-content;
   }
+  
   section {
     margin: 0 5%;
   }
-  .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
-  }
+
   .about-containers {
     margin-top: 0;
   }
@@ -55,7 +66,18 @@
   #profile {
     height: 83vh;
     margin-bottom: 0;
+  
   }
+  nav{
+    height: 8vh;
+  }
+  .section__pic-container img{
+   width: 200px;
+   height: 200px;
+   margin-bottom: 20px;
+   background: #99BC85;
+   border-radius: 49% 51% 74% 24% / 39% 40% 57% 52%;
+}
   article {
     font-size: 1rem;
   }
