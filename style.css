@@ -204,7 +204,6 @@ justify-content: centerp;
    height: 200px;
    background: #99BC85;
    border-radius: 49% 51% 74% 24% / 39% 40% 57% 52%;
-  
    
 }
 .section__text {
@@ -240,7 +239,9 @@ justify-content: centerp;
 
 .icon {
   cursor: pointer;
-  height: 2rem;
+padding: 5px;
+border-radius: 100%;
+  background: #99BC85;
 }
 
 /* BUTTONS */
@@ -358,7 +359,7 @@ justify-content: centerp;
   margin-bottom: 2rem;
 }
 .keahlian-sub-title {
-  color: #99BC85;
+  color: rgb(85, 85, 85);
   font-weight: 600;
 }
 
@@ -373,14 +374,14 @@ justify-content: centerp;
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  color: rgb(53, 53, 53);
+  color: rgb(85, 85, 85);
   gap: 2.5rem;
   justify-content: space-around;
 }
 
 article {
   display: flex;
-  color: rgb(53, 53, 53);
+  color: rgb(85, 85, 85);
   width: 10rem;
   justify-content: space-around;
   gap: 0.5rem;
@@ -409,11 +410,11 @@ article .icon {
 
 .project-title {
   margin: 1rem;
-  color: #99BC85;
+  color: rgb(85, 85, 85);
 }
 
 .project-btn {
-  color: #99BC85;
+  color: rgb(85, 85, 85);
   border-color: #99BC85;
 }
 
@@ -443,12 +444,20 @@ article .icon {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  padding: 3px;
   margin: 1rem;
+}
+.details-container i{
+  font-size: 48px;
+  color: white;
+}
+.contact-info-container i {
+  color: white;
 }
 
 .contact-info-container p a {
   font-size: small;
-  color: #99BC85;
+  color: rgb(85, 85, 85);
 }
 
 .contact-icon {
@@ -462,11 +471,13 @@ article .icon {
 footer {
   background: #99BC85;
   width: 100%;
+  height: 3rem;
 }
 
 footer p {
   color: #E1F0DA;
-  width: 100%;
-  padding: 10px;
-  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

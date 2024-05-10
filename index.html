@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Gilar Wahiditya</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
@@ -39,11 +44,11 @@
       </div>
     </nav>
     <section id="profile">
-      <div class="section__pic-container">
+      <div class="section__pic-container animate__animated animate__bounceInLeft">
       
             <img src="Image_lar.png" alt="LarrImage" />
       </div>
-      <div class="section__text">
+      <div class="section__text animate__animated animate__bounceInDown">
         <h1 class="title">Gilar Wahiditya Eka Putra</h1>
         <div class="btn-container">
           <button
@@ -65,17 +70,13 @@
         <div class="about-details-container">
           <div class="about-containers">
             
-            <div class="details-container">
-              <img
-                src="education.png"
-                alt="Education icon"
-                class="icon"
-              />
+            <div data-aos="fade-right" class="details-container">
+              <i id="grad" class="ph-light ph-student icon"></i>
               <h3>Pendidikan</h3>
               <p>SMKN 1 KERTAJATI</p>
             </div>
           </div>
-          <div class="text-container">
+          <div data-aos="fade-right" class="text-container">
             <p>
 Lulusan dari Sekolah Menengah Kejuruan jurusan rekayasa perangkat lunakyang memiliki antusiasme yang tinggi dalam teknologi informasi danpengelolaan data. Memiliki pengalaman Peraktik Kerja Lapangan di bidang ITpaham akan konsep - konsep pemrograman dan pengelolaan data. Sayaadalah individu yang memiliki semangat untuk belajar dan berkembang dalambidang IT dan pengelolaan data
             </p>
@@ -88,7 +89,7 @@ Lulusan dari Sekolah Menengah Kejuruan jurusan rekayasa perangkat lunakyang memi
       <h1 class="title">Pengalaman</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-          <div class="details-container">
+          <div data-aos="zoom-in" data-aos-delay="300" class="details-container">
             <h2 class="experience-sub-title">SMK NEGERI 1 KERTAJATI</h2>
             <div class="article-container">
               <article>
@@ -113,7 +114,7 @@ Lulusan dari Sekolah Menengah Kejuruan jurusan rekayasa perangkat lunakyang memi
               </article>
             </div>
           </div>
-          <div class="details-container">
+          <div data-aos="zoom-in" data-aos-delay="400" class="details-container">
             <h2 class="experience-sub-title">F notebook</h2>
             <div class="article-container">
               <article>
@@ -145,7 +146,7 @@ Lulusan dari Sekolah Menengah Kejuruan jurusan rekayasa perangkat lunakyang memi
       <h1 class="title">Projek</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-          <div class="details-container color-container">
+          <div data-aos="zoom-in" data-aos-delay="300" class="details-container color-container">
             <div class="article-container">
               <img
                 src="calculator.jpg"
@@ -169,7 +170,7 @@ Lulusan dari Sekolah Menengah Kejuruan jurusan rekayasa perangkat lunakyang memi
               </a>
             </div>
           </div>
-          <div class="details-container color-container">
+          <div data-aos="zoom-in" data-aos-delay="400" class="details-container color-container">
             <div class="article-container">
               <img
                 src="movie.jpg"
@@ -193,7 +194,7 @@ Lulusan dari Sekolah Menengah Kejuruan jurusan rekayasa perangkat lunakyang memi
               </a>
             </div>
           </div>
-          <div class="details-container color-container">
+          <div data-aos="zoom-in" data-aos-delay="500" class="details-container color-container">
             <div class="article-container">
               <img
                 src="todo.jpg"
@@ -225,13 +226,13 @@ Lulusan dari Sekolah Menengah Kejuruan jurusan rekayasa perangkat lunakyang memi
       <h1 class="title">Keahlian saya</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-          <div class="details-container">
+          <div data-aos="zoom-in" data-aos-delay="300" class="details-container">
             <p class="keahlian-sub-title">Ms Office ( word, excel, powerpoint )</p>
           </div>
-          <div class="details-container">
+          <div data-aos="zoom-in" data-aos-delay="400" class="details-container">
             <p class="keahlian-sub-title">Pengembangan web</p>
           </div>
-          <div class="details-container">
+          <div data-aos="zoom-in" data-aos-delay="500" class="details-container">
             <p class="keahlian-sub-title">Manajemen waktu</p>
           </div>
         </div>
@@ -241,44 +242,36 @@ Lulusan dari Sekolah Menengah Kejuruan jurusan rekayasa perangkat lunakyang memi
     
     <section id="contact">
       <h1 class="title">Kontak Saya</h1>
-      <div class="contact-info-upper-container">
+      <div data-aos="flip-left" class="contact-info-upper-container">
         <div class="contact-info-container">
-          <img
-            src="email.png"
-            alt="Email icon"
-            class="icon contact-icon"
-          />
+        <i class="ph-light ph-envelope icon"></i>
           <p><a href="mailto:wahidityagilar6@gmail.com">wahidityagilar6@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
-          <img
-            src="linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
+          <i class="ph-light ph-linkedin-logo icon"></i>
           <p><a href="https://www.linkedin.com/in/gilarwdy"target="_blank">Gilar Wahiditya</a></p>
         </div>
         <div class="contact-info-container">
-          <img
-            src="github.png"
-            alt="My Github profile"
-            class="icon contact-icon"
-          />
+            <i class="ph-light ph-github-logo icon"></i>
           <p><a href="https://github.com/LarzzCode" target="_blank">Gilar Wahiditya</a></p>
         </div>
         <div class="contact-info-container">
-          <img
-            src="whatsapp.png"
-            alt="My whatsapp profile"
-            class="icon contact-icon"
-          />
+          <i class="ph-light ph-whatsapp-logo icon"></i>
           <p><a href="https://wa.me/6283842581283" target="_blank">+62 851 7438 8765</a></p>
         </div>
       </div>
     </section>
     <footer>
-      <p>Copyright &#169;2024 Gilar Wahiditya Eka Putra</p>
+      <p>Copyright &copy;2024 Gilar Wahiditya</p>
     </footer>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      disable:false,
+      once:true,
+    });
+  </script>
     <script src="script.js"></script>
   </body>
 </html>
